@@ -1,0 +1,256 @@
+.App {
+  text-align: center;
+}
+*{
+  text-decoration: none;
+}
+body{
+  background-color: #e75349;
+}
+.container{
+  background-color: #fff;
+  width: 70%;
+  height: 90vh;
+ margin: 5% 20% ;
+
+}
+.logoWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+.logoWrapper img{
+  width: 30%;
+  height: 20%;
+   margin: 30px 
+}
+.work{
+  width: 40%;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  font-size: small;
+  font-weight: 800;
+  
+}
+input,p{
+  font-family: FontAwesome;
+}
+.signInWrapper {
+  width: 26%;
+  height: auto;
+  position: absolute;
+  top: 25%;
+  left: 57%;
+}
+.signInWrapper span{
+  display: block;
+  width: 12%;
+  background-color: #e75349;
+  height: 2px;
+  border-radius: 2px;
+  margin-top: -15px;
+}
+.signInWrapper form input{
+  width: 97%;
+  height: 30px;
+  outline: none;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+.signInWrapper form input:last-child{
+  margin-bottom: 20px;
+}
+ .rememberActionWrapper{
+  max-width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+.checkwrapper{
+  display: flex;
+}
+.checkwrapper input{
+  cursor: pointer;
+}
+.rememberActionWrapper label{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 800;
+}
+.rememberActionWrapper p{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 800;
+}
+input[type=radio]#remember{
+ accent-color: #e75349;
+}
+ .sign{
+  width: 20%;
+  height: 27px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color:#e75349 ;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 800;
+  border-radius: 5px;
+  text-align: center;
+  padding: 8px;
+ }
+  .socialWrapper1{
+   width: 97%;
+   height: 100px;
+  }
+  .log{
+    height: 40px;
+  }
+  .socialWrapper1 p{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: small;
+  margin-left: 35%;
+  margin-top: 5%;
+  font-weight: 800;
+  text-transform: capitalize;
+  }
+ .socialWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+ }
+ .btn,.btn1 {
+  background-color: rgba(59,89,151,255);
+  color: #fff;
+  padding: 1px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: 900;
+ }
+  .fa-facebook,.fa-twitter{
+  margin: 5%;
+  
+ }
+ .btn1{
+  background-color: rgba(65,153,254,255);
+ }
+ footer{
+  max-width:90%;
+  margin: auto;
+  height: auto;
+  text-align: center;
+  margin-top: -10px;
+}
+footer ul {
+  display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+}
+footer ul li{
+  margin-left: 10px;
+  position: relative;
+  color: #fff;
+  padding-right: 10px;
+}
+.stroke::after{
+  position: absolute;
+  content: '';
+  display: block;
+  width: 10px;
+  height: 15px;
+  top: 5px;
+  right: 0;
+  border-right: 1px solid #e8e8e8;
+}
+.copy{
+  margin-left: 4%;
+}
+.signup{
+  max-width: 100%;
+  height: 50%;
+  border: 1px solid #e8e8e8;
+}
+.signm{
+  display: flex;
+  justify-content: space-around;
+}
+.signm p{
+   margin-right: 5%;
+}
+.signm .john{
+  margin-right: 25%;
+}
+.buttons{
+
+  width: 70%;
+  margin: 10px;
+  margin-left: 26%;
+  margin-bottom: 13%;
+
+}
+.buttons button{
+  padding: 5px;
+
+}
+.activeBtn{
+  background-color: #e75349;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+.check{
+   max-width: 70%;
+  height: 20%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+  align-items: center;
+}
+.check #remember{
+width: 15px;
+margin-bottom: 12%;
+   /* margin-right: ; */
+}
+.check label{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 800;
+  margin-right: 20px;
+  
+}
+.sign{
+  background-color: #e75349;
+  color: white;
+  width: 30%;
+  height:10% ;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+
+}
+.act{
+  position: relative;
+  left: 70%;
+  bottom: 20%;
+}
+a{
+  background-color: #e8e8e8;
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+  
+ 
+}
+.mylogo{
+  width: 70%;
+  margin-top:12% ;
+ 
+}
+.mylogo img{
+  width: 60%;
+  height: 40%;
+}
